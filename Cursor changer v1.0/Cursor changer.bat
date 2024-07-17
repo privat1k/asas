@@ -5,11 +5,7 @@ title Cursor changer v1.0 (%date%, licence number: %random%%random%)
 echo Hello, %username%! Do you want to change the cursor?
 echo Press any key to continue...
 pause>nul
-:: call :SetCursor [Тип курсора] [Файл]
-:: Типы курсоров можно посмотреть командой:
 :: reg query "HKEY_CURRENT_USER\Control Panel\Cursors" /t REG_EXPAND_SZ
-:: Название типа будет в первом столбце (Arrow, Crosshair и т.д.)
- 
 call :SetCursor Arrow "%cd%\cursors\main.ani">nul
 call :SetCursor Help "%cd%\cursors\help.ani">nul
 call :SetCursor Wait "%cd%\cursors\wait.ani">nul
