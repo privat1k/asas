@@ -1,1 +1,0 @@
-x=msgbox("Installation of .NET Framework 4.8.1 is corrupted! Try to reinstall it, and launch the program again!", 0+16, "Critical Error")
